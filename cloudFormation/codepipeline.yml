@@ -29,7 +29,7 @@ Resources:
       Stages:
         - Name: Source
           Actions: 
-          -  Name: GetSource
+          - Name: GetSource
             InputArtifacts: []
             ActionTypeId:
               Category: Source
