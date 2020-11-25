@@ -123,8 +123,8 @@ Resources:
               Configuration:
                 ProjectName: !GetAtt CodeBuildLambda.Outputs.BuildProject
               RunOrder: 2
-         
- WebhookPipeline:
+              
+  WebhookPipeline:
     Type: AWS::CodePipeline::Webhook
     Properties:
       Name: !Sub ${ProjectName}-webhook
